@@ -399,3 +399,8 @@ import pandas as pd
 p20 = pd.read_csv("f20.tsv", sep="\t")
 p20
 get_ipython().run_line_magic('save', '')
+get_ipython().run_line_magic('save', 'homework.ipynb')
+import pandas as pd
+
+p20 = pd.read_csv("f20.tsv", sep="\t")
+p20
